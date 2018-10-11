@@ -1,3 +1,11 @@
+
+/************************** 
+GENERAL 
+***************************/
+body {
+    font-family: 'Krub', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -8,37 +16,86 @@ a {
     padding: 0 5%;
 }
 
+
+
+/************************** 
+HEADING
+***************************/
+
 #logo{
     text-align: center;
     margin: 0;
 }
 
-a {
-    color: #602515;
+h1 {
+    font-family: 'Krub', sans-serif;
+    margin 15px 0;
+    font-size:1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
 }
 
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/************************** 
+COLORS
+***************************/
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color:#C8945D;
+}
+
+/************************** 
+COLORS
+***************************/
+
+/* Site body  */
+
+body {
+    background-color: #fff;
+    color: #C8945D;
+}
+/* Red header */
 header {
     background-color: #602515;
     border-color: #C8945D;
-}
-
-h1, h2{
-    color:#fff;
 }
 
 nav{
     background: #C15736; 
 }
 
+/* logo text  */
+h1, h2{
+    color:#fff;
+}
+
+/* link color */
+a {
+    color: #602515;
+}
+
+/*NAV background on mobile*/
+
+/* Color ofr nav links */
 nav a, nav a:visited {
     color: #fff;
 }
 
+/* Selected nav link color*/
 nav a.selected, nav a:hover{
-    color: #C8945D;
-}
-
-body {
-    background-color: #fff;
     color: #C8945D;
 }
