@@ -1,2 +1,2 @@
 # vanilla_site
-deploying a vanilla website
+[[Deploying a Static Website]]
